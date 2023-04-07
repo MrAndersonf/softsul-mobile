@@ -65,6 +65,7 @@ const BranchFilter: React.ForwardRefRenderFunction<
 
 					if (response.data.length === 0) {
 						Warning('Nenhum resultado encontrado');
+						onFilter([]);
 						setLoadingOnSearch(false);
 						return;
 					}

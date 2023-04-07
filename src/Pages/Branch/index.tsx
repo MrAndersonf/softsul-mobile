@@ -43,6 +43,8 @@ export const Branch = ({ route, navigation }: BranchScreenProps) => {
 		referenceForm.current?.edit(user);
 	};
 
+	console.log(data);
+
 	return (
 		<Container>
 			<AppBar
@@ -53,7 +55,7 @@ export const Branch = ({ route, navigation }: BranchScreenProps) => {
 			/>
 			<MainArea>
 				<ScrollView>
-					{data.map(item => (
+					{data?.map(item => (
 						<CardBranch
 							data={item}
 							key={item?.id}

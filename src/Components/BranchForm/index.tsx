@@ -209,6 +209,7 @@ const BranchForm: React.ForwardRefRenderFunction<
 				setFieldValue('city', response?.data?.municipio);
 				setFieldValue('state', response?.data?.uf);
 				Success('Dados preenchidos com sucesso!');
+				return;
 			}
 			Warning('Informação não encontrada!');
 		} catch (error: any) {
@@ -317,6 +318,20 @@ const BranchForm: React.ForwardRefRenderFunction<
 							onChange={handleChangeValue}
 							onError={errors.state}
 						/>
+						<Input
+							name="lat"
+							label="Latitude"
+							value={values.lat}
+							onChange={handleChangeValue}
+							onError={errors.lat}
+						/>
+						<Input
+							name="long"
+							label="Longitude"
+							value={values.long}
+							onChange={handleChangeValue}
+							onError={errors.long}
+						/>
 
 						<Checkbox.Item
 							style={{
@@ -340,7 +355,7 @@ const BranchForm: React.ForwardRefRenderFunction<
 						loading={loadingOnSaving}
 						onPress={handleSubmit}
 					>
-						{updateBranch === '' ? 'Cadatrar' : 'Atualizar'}
+						{updateBranch === '' ? 'Cadastrar' : 'Atualizar'}
 					</Button>
 					<Button
 						labelStyle={{

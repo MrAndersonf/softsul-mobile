@@ -191,7 +191,7 @@ const UserForm: React.ForwardRefRenderFunction<IUserFormHandles, IUserForm> = (
 						loading={loadingOnSaving}
 						onPress={handleSubmit}
 					>
-						{updateUser === '' ? 'Cadatrar' : 'Atualizar'}
+						{updateUser === '' ? 'Cadastrar' : 'Atualizar'}
 					</Button>
 					<Button
 						labelStyle={{
