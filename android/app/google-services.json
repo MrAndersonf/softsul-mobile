@@ -1,0 +1,47 @@
+{
+	"project_info": {
+		"project_number": "554231321744",
+		"project_id": "cms-centropool-a9453",
+		"storage_bucket": "cms-centropool-a9453.appspot.com"
+	},
+	"client": [
+		{
+			"client_info": {
+				"mobilesdk_app_id": "1:554231321744:android:3e15bcafaacf1d0e19b415",
+				"android_client_info": {
+					"package_name": "com.softsulmobile"
+				}
+			},
+			"oauth_client": [
+				{
+					"client_id": "554231321744-lejj1bg4c9h7p5ka42afkbsnfcrb50no.apps.googleusercontent.com",
+					"client_type": 1,
+					"android_info": {
+						"package_name": "com.softsulmobile",
+						"certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+					}
+				},
+				{
+					"client_id": "554231321744-bq4abjno61ee5k1tm8psv9pf844jeu5s.apps.googleusercontent.com",
+					"client_type": 3
+				}
+			],
+			"api_key": [
+				{
+					"current_key": "AIzaSyAj7BqYSxg0HxZskd933MyJgNBrPT1-VfQ"
+				}
+			],
+			"services": {
+				"appinvite_service": {
+					"other_platform_oauth_client": [
+						{
+							"client_id": "554231321744-bq4abjno61ee5k1tm8psv9pf844jeu5s.apps.googleusercontent.com",
+							"client_type": 3
+						}
+					]
+				}
+			}
+		}
+	],
+	"configuration_version": "1"
+}

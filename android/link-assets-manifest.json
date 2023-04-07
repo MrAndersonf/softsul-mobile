@@ -1,0 +1,25 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/Marvel/Marvel-Bold.ttf",
+      "sha1": "25f3a9b0c6b6b8abc290f028f5ddfa84ea3723d0"
+    },
+    {
+      "path": "assets/fonts/Marvel/Marvel-BoldItalic.ttf",
+      "sha1": "6573d2360082eafd9312c05f9bd4da199f40fc9c"
+    },
+    {
+      "path": "assets/fonts/Marvel/Marvel-Italic.ttf",
+      "sha1": "e978820b2458eb43d85d30ddaf826c1b0d2e73d4"
+    },
+    {
+      "path": "assets/fonts/Marvel/Marvel-Regular.ttf",
+      "sha1": "0d1b5848224e2217458843a79285a1b64ff2a2de"
+    },
+    {
+      "path": "assets/fonts/Marvel/OFL.txt",
+      "sha1": "de3528d2ff59e2c36cbb5d38ea73eee642070cab"
+    }
+  ]
+}

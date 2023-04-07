@@ -1,0 +1,36 @@
+{
+	"extends": "@tsconfig/react-native/tsconfig.json",
+	"compilerOptions": {
+		"target": "esnext",
+		"lib": ["es2019", "ESNext"],
+		"jsx": "react-native",
+		"module": "ESNext",
+		"moduleResolution": "node",
+		"baseUrl": "./src",
+		"paths": {
+			"Pages/*": ["./Pages/*"],
+			"Assets/*": ["./Assets/*"],
+			"Components/*": ["./Components/*"],
+			"Routes/*": ["./Routes/*"],
+			"Navigations/*": ["./Navigations/*"]
+		},
+		"types": ["react-native", "jest", "styled-components-react-native"],
+		"typeRoots": ["./src/types"],
+		"resolveJsonModule": true,
+		"allowJs": true,
+		"noImplicitAny": false,
+		"noEmit": true,
+		"isolatedModules": true,
+		"allowSyntheticDefaultImports": true,
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"strict": true,
+		"skipLibCheck": true
+	},
+	"exclude": [
+		"node_modules",
+		"babel.config.js",
+		"metro.config.js",
+		"jest.config.js"
+	]
+}
